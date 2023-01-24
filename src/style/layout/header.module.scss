@@ -1,11 +1,11 @@
 .headerMainBox {
+  display: flex;
+  flex-direction: column;
+  background-color: red;
+  .headerContentBox {
+    background-color: blue;
     display: flex;
-    flex-direction: column;
-    background-color: red;
-    .headerContentBox {
-        background-color: blue;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
+    flex-direction: row;
+    justify-content: space-between;
+  }
 }

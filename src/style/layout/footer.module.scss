@@ -1,5 +1,8 @@
 .footerMainBox {
-    display: flex;
-    flex-direction: row;
-    background-color: purple;
+  display: flex;
+  flex-direction: row;
+  background-color: purple;
+  bottom: 0;
+  width: 100%;
+  position: fixed;
 }
