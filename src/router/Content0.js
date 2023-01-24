@@ -1,5 +1,5 @@
 // css
-import styles from "../style/router/content.module.scss";
+import styles from "./content.module.scss";
 
 export const Content0 = () => {
   return (

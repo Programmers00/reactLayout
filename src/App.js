@@ -5,12 +5,12 @@ import { Header } from "./layout/Header";
 import { Footer } from "./layout/Footer";
 import { Content } from "./layout/Content";
 // css
-import styles from "./style/app.module.scss";
+import styles from "./app.module.scss";
 
 function App() {
   return (
     <div className={styles.appMain}>
-      <Router basename={process.env.PUBLIC_URL}>
+      <Router>
         <Header></Header>
         <Content></Content>
       </Router>

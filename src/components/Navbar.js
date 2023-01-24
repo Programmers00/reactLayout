@@ -1,7 +1,7 @@
 // router
 import { Link } from "react-router-dom";
 // css
-import styles from "../style/components/navbar.module.scss";
+import styles from "./navbar.module.scss";
 export const Navbar = () => {
   return (
     <nav className={styles.navbarMainBox}>

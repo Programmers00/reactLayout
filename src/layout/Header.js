@@ -1,7 +1,7 @@
 // component
 import { Navbar } from "../components/Navbar";
 // css
-import styles from "../style/layout/header.module.scss";
+import styles from "./header.module.scss";
 // hook
 
 export const Header = () => {
